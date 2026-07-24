@@ -49,6 +49,7 @@ A collection of tools, datasets and papers about inbetweening and 2D animation.
 | Paper | Venue | Code/Project Link |
 | --- | --- | --- |
 | [Stylized Text-to-Motion Generation via Hypernetwork-Driven Low-Rank Adaptation](https://dl.acm.org/doi/10.1145/3799902.3811205) | SIGGRAPH 2026 | [code](https://github.com/junhyukjeon/style-salad) [webpage](https://junhyukjeon.github.io/projects/style-salad/) |
+| [Stylized Text-to-Motion Synthesis Via Multi-Condition Latent Diffusion](https://ieeexplore.ieee.org/abstract/document/11461022) | ICASSP 2026 | |
 | [Dance Like a Chicken: Low-Rank Stylization for Human Motion Diffusion](https://onlinelibrary.wiley.com/doi/10.1111/cgf.70365) | CGF (Eurographics 2026) | [code](https://github.com/haimsaw/LoRA-MDM) [webpage](https://haimsaw.github.io/LoRA-MDM/) |
 | [Generalizing Stylized Motion Generation Method by Introducing Metadata-Independent Learning and Unified Multiple Motion Dataset](https://ieeexplore.ieee.org/abstract/document/11303907/) | IEEE TMM 2025 | [code](https://github.com/erayuki-lmd/Generalized_Stylized_Motion_Generation_Method) |
 | [DiFusion: Flexible Stylized Motion Generation Using Digest-and-Fusion Scheme](https://ieeexplore.ieee.org/abstract/document/11202393/) | IEEE TVCG 2025 | |
