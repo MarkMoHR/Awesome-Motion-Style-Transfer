@@ -27,6 +27,7 @@ A collection of tools, datasets and papers about inbetweening and 2D animation.
 
 | Paper | Venue | Code/Project Link |
 | --- | --- | --- |
+| [Motion Style Slider: Endpoint-Supervised Continuous Style Control for Human Motion Diffusion](https://liaochenchieh.com/assets/pdf/motion-style-slider-eccv-2026.pdf) | ECCV 2026 | [webpage](https://liaochenchieh.com/projects/motion-style-slider/) |
 | [STyMo: Fast and Controllable Few-Shot Motion Style Transfer](https://dl.acm.org/doi/10.1145/3811356) | ACM TOG (SIGGRAPH 2026) | [code](https://github.com/facebookresearch/STyMo) |
 | [AStF: Motion Style Transfer via Adaptive Statistics Fusor](https://dl.acm.org/doi/10.1145/3746027.3754938) | ACM MM 2025 | [code](https://github.com/CHMimilanlan/AStF) |
 | [Arbitrary Motion Style Transfer with Multi-Condition Motion Latent Diffusion Model](https://openaccess.thecvf.com/content/CVPR2024/papers/Song_Arbitrary_Motion_Style_Transfer_with_Multi-condition_Motion_Latent_Diffusion_Model_CVPR_2024_paper.pdf) | CVPR 2024 | [code](https://github.com/XingliangJin/MCM-LDM.git) |
