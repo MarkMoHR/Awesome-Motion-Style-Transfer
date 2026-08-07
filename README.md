@@ -27,6 +27,7 @@ A collection of tools, datasets and papers about inbetweening and 2D animation.
 
 | Paper | Venue | Code/Project Link |
 | --- | --- | --- |
+| [MoSAIC: Aligned Intervention Supervision for Part-Local Motion Style Transfer](https://arxiv.org/abs/2607.26304) | arxiv 26.07 | [code](https://github.com/UTSA-VIRLab/MoSAIC) |
 | [Motion Style Slider: Endpoint-Supervised Continuous Style Control for Human Motion Diffusion](https://liaochenchieh.com/assets/pdf/motion-style-slider-eccv-2026.pdf) | ECCV 2026 | [webpage](https://liaochenchieh.com/projects/motion-style-slider/) |
 | [STyMo: Fast and Controllable Few-Shot Motion Style Transfer](https://dl.acm.org/doi/10.1145/3811356) | ACM TOG (SIGGRAPH 2026) | [code](https://github.com/facebookresearch/STyMo) |
 | [AStF: Motion Style Transfer via Adaptive Statistics Fusor](https://dl.acm.org/doi/10.1145/3746027.3754938) | ACM MM 2025 | [code](https://github.com/CHMimilanlan/AStF) |
