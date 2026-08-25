@@ -28,6 +28,7 @@ A collection of tools, datasets and papers about inbetweening and 2D animation.
 | Paper | Venue | Code/Project Link |
 | --- | --- | --- |
 | [MoSAIC: Aligned Intervention Supervision for Part-Local Motion Style Transfer](https://arxiv.org/abs/2607.26304) | arxiv 26.07 | [code](https://github.com/UTSA-VIRLab/MoSAIC) |
+| [Flexible Motion Stylization via Multi-modality Latent Diffusion Model](https://ieeexplore.ieee.org/abstract/document/11661589/) | TPAMI 2026 |  |
 | [Motion Style Slider: Endpoint-Supervised Continuous Style Control for Human Motion Diffusion](https://liaochenchieh.com/assets/pdf/motion-style-slider-eccv-2026.pdf) | ECCV 2026 | [webpage](https://liaochenchieh.com/projects/motion-style-slider/) |
 | [STyMo: Fast and Controllable Few-Shot Motion Style Transfer](https://dl.acm.org/doi/10.1145/3811356) | ACM TOG (SIGGRAPH 2026) | [code](https://github.com/facebookresearch/STyMo) |
 | [VQ-Style: Disentangling Style and Content in Motion with Residual Quantized Representations](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.70377) | EG 2026 |  |
