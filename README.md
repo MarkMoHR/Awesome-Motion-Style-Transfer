@@ -2,7 +2,7 @@
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-A collection of tools, datasets and papers about inbetweening and 2D animation.
+A collection of papers about motion style transfer, motion stylization, or stylized motion generation.
 
 > Feel free to create a PR or an issue.  (Pull Request is preferred)
 
