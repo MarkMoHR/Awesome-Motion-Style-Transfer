@@ -11,7 +11,8 @@ A collection of papers about motion style transfer, motion stylization, or styli
 
 - [0. Survey](#0-survey)
 - [1. Motion Style Transfer](#1-motion-style-transfer)
-- [2. Stylized Motion Generation](#2-stylized-motion-generation)
+- [2. Multi-modal Motion Stylization](#2-multi-modal-motion-stylization)
+- [3. Stylized Motion Generation](#3-stylized-motion-generation)
 
 ---
 
@@ -25,16 +26,17 @@ A collection of papers about motion style transfer, motion stylization, or styli
 
 ## 1. Motion Style Transfer
 
+> Inputs: content (motion) + style (reference motion)
+
 | Paper | Venue | Code/Project Link |
 | --- | --- | --- |
 | [MoSAIC: Aligned Intervention Supervision for Part-Local Motion Style Transfer](https://arxiv.org/abs/2607.26304) | arxiv 26.07 | [code](https://github.com/UTSA-VIRLab/MoSAIC) |
-| [Flexible Motion Stylization via Multi-modality Latent Diffusion Model](https://ieeexplore.ieee.org/abstract/document/11661589/) | TPAMI 2026 |  |
 | [Motion Style Slider: Endpoint-Supervised Continuous Style Control for Human Motion Diffusion](https://liaochenchieh.com/assets/pdf/motion-style-slider-eccv-2026.pdf) | ECCV 2026 | [webpage](https://liaochenchieh.com/projects/motion-style-slider/) |
 | [STyMo: Fast and Controllable Few-Shot Motion Style Transfer](https://dl.acm.org/doi/10.1145/3811356) | ACM TOG (SIGGRAPH 2026) | [code](https://github.com/facebookresearch/STyMo) |
 | [VQ-Style: Disentangling Style and Content in Motion with Residual Quantized Representations](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.70377) | EG 2026 |  |
 | [AStF: Motion Style Transfer via Adaptive Statistics Fusor](https://dl.acm.org/doi/10.1145/3746027.3754938) | ACM MM 2025 | [code](https://github.com/CHMimilanlan/AStF) |
 | [Decoupling Contact for Fine-Grained Motion Style Transfer](https://dl.acm.org/doi/full/10.1145/3680528.3687609) | SIGGRAPH Asia 2024 | |
-| [Generative Motion Stylization of Cross-structure Characters within Canonical Motion Space](https://dl.acm.org/doi/abs/10.1145/3664647.3680864) | ACM MM 2024 |  |
+| [Generative Human Motion Stylization in Latent Space](https://openreview.net/pdf?id=daEqXJ0yZo) | ICLR 2024 | [code](https://github.com/Murrol/GenMoStyle-code) [webpage](https://yxmu.foo/GenMoStyle/) |
 | [Arbitrary Motion Style Transfer with Multi-Condition Motion Latent Diffusion Model](https://openaccess.thecvf.com/content/CVPR2024/papers/Song_Arbitrary_Motion_Style_Transfer_with_Multi-condition_Motion_Latent_Diffusion_Model_CVPR_2024_paper.pdf) | CVPR 2024 | [code](https://github.com/XingliangJin/MCM-LDM.git) |
 | [MoST: Motion Style Transformer between Diverse Action Contents](https://openaccess.thecvf.com/content/CVPR2024/html/Kim_MoST_Motion_Style_Transformer_Between_Diverse_Action_Contents_CVPR_2024_paper.html) | CVPR 2024 | [code](https://github.com/Boeun-Kim/MoST) |
 | [Scalable Motion Style Transfer with Constrained Diffusion Generation](https://ojs.aaai.org/index.php/AAAI/article/view/28889) | AAAI 2024 | |
@@ -45,9 +47,8 @@ A collection of papers about motion style transfer, motion stylization, or styli
 | [Motion Puzzle: Arbitrary Motion Style Transfer by Body Part](https://dl.acm.org/doi/full/10.1145/3516429) | ACM TOG (SIGGRAPH 2022) | [code](https://github.com/DK-Jang/motion_puzzle) |
 | [Unpaired Motion Style Transfer with Motion-oriented Projection Flow Network](https://ieeexplore.ieee.org/abstract/document/9859776/) | ICME 2022 |  |
 | [Real-Time Style Modelling of Human Locomotion via Feature-Wise Transformations and Local Motion Phases](https://dl.acm.org/doi/abs/10.1145/3522618) | CGIT 2022 | [code](https://github.com/ianxmason/local-phases) |
-| [Unifying Human Motion Synthesis and Style Transfer with Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2212.08526) | arxiv 22.12 | [code](https://github.com/mrzzy2021/StyledMotionSynthesis) |
-| [Autoregressive Stylized Motion Synthesis with Generative Flow](https://openaccess.thecvf.com/content/CVPR2021/html/Wen_Autoregressive_Stylized_Motion_Synthesis_With_Generative_Flow_CVPR_2021_paper.html) | CVPR 2021 | [code](https://github.com/IGLICT/Stylemotion) |
 | [Diverse Motion Stylization for Multiple Style Domains via Spatial-Temporal Graph-Based Generative Model](https://dl.acm.org/doi/abs/10.1145/3480145) | CGIT 2021 | [code](https://github.com/soomean/Diverse-Motion-Stylization) |
+| [Autoregressive Stylized Motion Synthesis with Generative Flow](https://openaccess.thecvf.com/content/CVPR2021/html/Wen_Autoregressive_Stylized_Motion_Synthesis_With_Generative_Flow_CVPR_2021_paper.html) | CVPR 2021 | [code](https://github.com/IGLICT/Stylemotion) |
 | [Unpaired Motion Style Transfer from Video to Animation](https://dl.acm.org/doi/10.1145/3386569.3392469) | ACM TOG (SIGGRAPH 2020) | [code](https://github.com/DeepMotionEditing/deep-motion-editing) [webpage](https://deepmotionediting.github.io/style_transfer) |
 | [Few-shot Learning of Homogeneous Human Locomotion Styles](https://doi.org/10.1111/cgf.13555) | CGF 2018 | |
 | [Fast Neural Style Transfer for Motion Data](https://ieeexplore.ieee.org/abstract/document/8013475) | CGA 2017 | |
@@ -55,8 +56,19 @@ A collection of papers about motion style transfer, motion stylization, or styli
 | [A Deep Learning Framework For Character Motion Synthesis and Editing](https://dl.acm.org/doi/abs/10.1145/2897824.2925975) | ACM TOG (SIGGRAPH 2016) | [webpage](https://theorangeduck.com/page/deep-learning-framework-character-motion-synthesis-and-editing) |
 | [Realtime Style Transfer for Unlabeled Heterogeneous Human Motion](https://dl.acm.org/doi/abs/10.1145/2766999) | ACM TOG 2015 | |
 
+## 2. Multi-modal Motion Stylization
 
-## 2. Stylized Motion Generation
+> Inputs: content (motion) + style (text / reference motion / image / video)
+
+| Paper | Venue | Code/Project Link |
+| --- | --- | --- |
+| [Flexible Motion Stylization via Multi-modality Latent Diffusion Model](https://ieeexplore.ieee.org/abstract/document/11661589/) | TPAMI 2026 |  |
+| [Generative Motion Stylization of Cross-structure Characters within Canonical Motion Space](https://dl.acm.org/doi/abs/10.1145/3664647.3680864) | ACM MM 2024 |  |
+
+
+## 3. Stylized Motion Generation
+
+> Inputs: content (text) + style (text / reference motion)
 
 | Paper | Venue | Code/Project Link |
 | --- | --- | --- |
@@ -66,9 +78,7 @@ A collection of papers about motion style transfer, motion stylization, or styli
 | [Generalizing Stylized Motion Generation Method by Introducing Metadata-Independent Learning and Unified Multiple Motion Dataset](https://ieeexplore.ieee.org/abstract/document/11303907/) | IEEE TMM 2025 | [code](https://github.com/erayuki-lmd/Generalized_Stylized_Motion_Generation_Method) |
 | [DiFusion: Flexible Stylized Motion Generation Using Digest-and-Fusion Scheme](https://ieeexplore.ieee.org/abstract/document/11202393/) | IEEE TVCG 2025 | |
 | [StyleMotif: Multi-Modal Motion Stylization using Style-Content Cross Fusion](https://openaccess.thecvf.com/content/ICCV2025/papers/Guo_StyleMotif_Multi-Modal_Motion_Stylization_using_Style-Content_Cross_Fusion_ICCV_2025_paper.pdf) | ICCV 2025 | [webpage](https://stylemotif.github.io/) |
-| [SMEAR: Stylized Motion Exaggeration with ARt-direction](https://dl.acm.org/doi/10.1145/3641519.3657457) | SIGGRAPH 2024 | [code](https://github.com/MoStyle/SMEAR) |
-| [Generative Human Motion Stylization in Latent Space](https://openreview.net/pdf?id=daEqXJ0yZo) | ICLR 2024 | [code](https://github.com/Murrol/GenMoStyle-code) [webpage](https://yxmu.foo/GenMoStyle/) |
 | [SMooDi: Stylized Motion Diffusion Model](https://arxiv.org/pdf/2407.12783) | ECCV 2024 | [webpage](https://neu-vi.github.io/SMooDi/) |
 | [StyleVR: Stylizing Character Animations With Normalizing Flows](https://ieeexplore.ieee.org/abstract/document/10076832/) | IEEE TVCG 2023 | |
-| [RSMT: Real-time Stylized Motion Transition for Characters](https://dl.acm.org/doi/10.1145/3588432.3591514) | SIGGRAPH 2023 | [code](https://github.com/yuyujunjun/RSMT-Realtime-Stylized-Motion-Transition) |
-| [GANimator: Neural Motion Synthesis from a Single Sequence](https://dl.acm.org/doi/10.1145/3528223.3530157) | ACM TOG (SIGGRAPH 2022) | [code](https://github.com/PeizhuoLi/ganimator) [webpage](https://peizhuoli.github.io/ganimator/) |
+| [Unifying Human Motion Synthesis and Style Transfer with Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2212.08526) | arxiv 22.12 | [code](https://github.com/mrzzy2021/StyledMotionSynthesis) |
+
