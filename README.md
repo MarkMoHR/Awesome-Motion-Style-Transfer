@@ -28,9 +28,10 @@ A collection of papers about motion style transfer, motion stylization, or styli
 
 > Inputs: content (motion) + style (reference motion)
 
+- Whole-body-level
+
 | Paper | Venue | Code/Project Link |
 | --- | --- | --- |
-| [MoSAIC: Aligned Intervention Supervision for Part-Local Motion Style Transfer](https://arxiv.org/abs/2607.26304) | arxiv 26.07 | [code](https://github.com/UTSA-VIRLab/MoSAIC) |
 | [Motion Style Slider: Endpoint-Supervised Continuous Style Control for Human Motion Diffusion](https://liaochenchieh.com/assets/pdf/motion-style-slider-eccv-2026.pdf) | ECCV 2026 | [webpage](https://liaochenchieh.com/projects/motion-style-slider/) |
 | [STyMo: Fast and Controllable Few-Shot Motion Style Transfer](https://dl.acm.org/doi/10.1145/3811356) | ACM TOG (SIGGRAPH 2026) | [code](https://github.com/facebookresearch/STyMo) |
 | [VQ-Style: Disentangling Style and Content in Motion with Residual Quantized Representations](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.70377) | EG 2026 |  |
@@ -44,7 +45,6 @@ A collection of papers about motion style transfer, motion stylization, or styli
 | [SMCD: High Realism Motion Style Transfer via Mamba-based Diffusion](https://arxiv.org/abs/2405.02844) | arxiv 24.05 | |
 | [FineStyle: Semantic-Aware Fine-Grained Motion Style Transfer with Dual Interactive-Flow Fusion](https://ieeexplore.ieee.org/abstract/document/10269731/) | IEEE TVCG 2023 | [code](https://github.com/XingliangJin/Fine-Style.git) |
 | [Style-ERD: Responsive and Coherent Online Motion Style Transfer](https://openaccess.thecvf.com/content/CVPR2022/papers/Tao_Style-ERD_Responsive_and_Coherent_Online_Motion_Style_Transfer_CVPR_2022_paper.pdf) | CVPR 2022 | [code](https://github.com/tianxintao/Online-Motion-Style-Transfer) [webpage](https://tianxintao.github.io/Online-Motion-Style-Transfer/) |
-| [Motion Puzzle: Arbitrary Motion Style Transfer by Body Part](https://dl.acm.org/doi/full/10.1145/3516429) | ACM TOG (SIGGRAPH 2022) | [code](https://github.com/DK-Jang/motion_puzzle) |
 | [Unpaired Motion Style Transfer with Motion-oriented Projection Flow Network](https://ieeexplore.ieee.org/abstract/document/9859776/) | ICME 2022 |  |
 | [Real-Time Style Modelling of Human Locomotion via Feature-Wise Transformations and Local Motion Phases](https://dl.acm.org/doi/abs/10.1145/3522618) | CGIT 2022 | [code](https://github.com/ianxmason/local-phases) |
 | [Diverse Motion Stylization for Multiple Style Domains via Spatial-Temporal Graph-Based Generative Model](https://dl.acm.org/doi/abs/10.1145/3480145) | CGIT 2021 | [code](https://github.com/soomean/Diverse-Motion-Stylization) |
@@ -55,6 +55,14 @@ A collection of papers about motion style transfer, motion stylization, or styli
 | [Spectral Style Transfer for Human Motion between Independent Actions](https://dl.acm.org/doi/10.1145/2897824.2925955) | ACM TOG (SIGGRAPH 2016) | |
 | [A Deep Learning Framework For Character Motion Synthesis and Editing](https://dl.acm.org/doi/abs/10.1145/2897824.2925975) | ACM TOG (SIGGRAPH 2016) | [webpage](https://theorangeduck.com/page/deep-learning-framework-character-motion-synthesis-and-editing) |
 | [Realtime Style Transfer for Unlabeled Heterogeneous Human Motion](https://dl.acm.org/doi/abs/10.1145/2766999) | ACM TOG 2015 | |
+
+
+- Body-part-level
+
+| Paper | Venue | Code/Project Link |
+| --- | --- | --- |
+| [MoSAIC: Aligned Intervention Supervision for Part-Local Motion Style Transfer](https://arxiv.org/abs/2607.26304) | arxiv 26.07 | [code](https://github.com/UTSA-VIRLab/MoSAIC) |
+| [Motion Puzzle: Arbitrary Motion Style Transfer by Body Part](https://dl.acm.org/doi/full/10.1145/3516429) | ACM TOG (SIGGRAPH 2022) | [code](https://github.com/DK-Jang/motion_puzzle) |
 
 ## 2. Multi-modal Motion Stylization
 
