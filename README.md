@@ -80,6 +80,7 @@ A collection of papers about motion style transfer, motion stylization, or styli
 
 | Paper | Venue | Code/Project Link |
 | --- | --- | --- |
+| [Flexible Motion Generation from Language and Style References](https://arxiv.org/abs/2609.08032) | PG 2026 |  |
 | [Stylized Text-to-Motion Generation via Hypernetwork-Driven Low-Rank Adaptation](https://dl.acm.org/doi/10.1145/3799902.3811205) | SIGGRAPH 2026 | [code](https://github.com/junhyukjeon/style-salad) [webpage](https://junhyukjeon.github.io/projects/style-salad/) |
 | [Stylized Text-to-Motion Synthesis Via Multi-Condition Latent Diffusion](https://ieeexplore.ieee.org/abstract/document/11461022) | ICASSP 2026 | |
 | [Dance Like a Chicken: Low-Rank Stylization for Human Motion Diffusion](https://onlinelibrary.wiley.com/doi/10.1111/cgf.70365) | CGF (Eurographics 2026) | [code](https://github.com/haimsaw/LoRA-MDM) [webpage](https://haimsaw.github.io/LoRA-MDM/) |
