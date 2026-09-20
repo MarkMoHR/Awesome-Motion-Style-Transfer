@@ -32,6 +32,7 @@ A collection of papers about motion style transfer, motion stylization, or styli
 
 | Paper | Venue | Code/Project Link |
 | --- | --- | --- |
+| [MorphoStyle: Motion Style Transfer with Morphology Control](https://arxiv.org/abs/2609.14189) | BMVC 2026 | [code](https://github.com/funkdub/MorphoStyle) |
 | [Motion Style Slider: Endpoint-Supervised Continuous Style Control for Human Motion Diffusion](https://liaochenchieh.com/assets/pdf/motion-style-slider-eccv-2026.pdf) | ECCV 2026 | [webpage](https://liaochenchieh.com/projects/motion-style-slider/) |
 | [STyMo: Fast and Controllable Few-Shot Motion Style Transfer](https://dl.acm.org/doi/10.1145/3811356) | ACM TOG (SIGGRAPH 2026) | [code](https://github.com/facebookresearch/STyMo) |
 | [VQ-Style: Disentangling Style and Content in Motion with Residual Quantized Representations](https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.70377) | EG 2026 |  |
