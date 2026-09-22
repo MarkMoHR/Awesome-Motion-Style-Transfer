@@ -81,6 +81,7 @@ A collection of papers about motion style transfer, motion stylization, or styli
 
 | Paper | Venue | Code/Project Link |
 | --- | --- | --- |
+| [Depth-Adaptive Injection for Stylized Text-to-Motion](https://ieeexplore.ieee.org/abstract/document/11693980) | TVCG 2026 |  |
 | [Flexible Motion Generation from Language and Style References](https://arxiv.org/abs/2609.08032) | PG 2026 |  |
 | [Stylized Text-to-Motion Generation via Hypernetwork-Driven Low-Rank Adaptation](https://dl.acm.org/doi/10.1145/3799902.3811205) | SIGGRAPH 2026 | [code](https://github.com/junhyukjeon/style-salad) [webpage](https://junhyukjeon.github.io/projects/style-salad/) |
 | [Stylized Text-to-Motion Synthesis Via Multi-Condition Latent Diffusion](https://ieeexplore.ieee.org/abstract/document/11461022) | ICASSP 2026 | |
