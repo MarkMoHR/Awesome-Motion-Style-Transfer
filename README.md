@@ -80,6 +80,8 @@ A collection of papers about motion style transfer, motion stylization, or styli
 
 > Inputs: content (text) + style (text / reference motion)
 
+- Digital Character
+
 | Paper | Venue | Code/Project Link |
 | --- | --- | --- |
 | [Depth-Adaptive Injection for Stylized Text-to-Motion](https://ieeexplore.ieee.org/abstract/document/11693980) | TVCG 2026 |  |
@@ -94,3 +96,9 @@ A collection of papers about motion style transfer, motion stylization, or styli
 | [StyleVR: Stylizing Character Animations With Normalizing Flows](https://ieeexplore.ieee.org/abstract/document/10076832/) | IEEE TVCG 2023 | |
 | [Unifying Human Motion Synthesis and Style Transfer with Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2212.08526) | arxiv 22.12 | [code](https://github.com/mrzzy2021/StyledMotionSynthesis) |
 
+- Physical Robot
+
+| Paper | Venue | Code/Project Link |
+| --- | --- | --- |
+| [EMoG: Emotion-Modulated Gait Generation for Expressive Humanoid Locomotion](https://arxiv.org/abs/2609.14432) | arxiv 26.09 | [webpage](https://jtthhhh.github.io/Emog-web/) |
+| [Walk Like This: Stylized Locomotion for Physics-Based Characters through Example-Driven Diffusion](https://arxiv.org/abs/2610.18147) | CoRL 2026 | [demo](https://www.youtube.com/watch?v=roFnS6N7nJ4) |
