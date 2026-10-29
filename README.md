@@ -88,11 +88,13 @@ A collection of papers about motion style transfer, motion stylization, or styli
 | [Flexible Motion Generation from Language and Style References](https://arxiv.org/abs/2609.08032) | PG 2026 |  |
 | [Stylized Text-to-Motion Generation via Hypernetwork-Driven Low-Rank Adaptation](https://dl.acm.org/doi/10.1145/3799902.3811205) | SIGGRAPH 2026 | [code](https://github.com/junhyukjeon/style-salad) [webpage](https://junhyukjeon.github.io/projects/style-salad/) |
 | [Stylized Text-to-Motion Synthesis Via Multi-Condition Latent Diffusion](https://ieeexplore.ieee.org/abstract/document/11461022) | ICASSP 2026 | |
+| [FEEL: Emotion-Enriched Text-to-Motion Generation Using Small-Scale Emotion Motion Data](https://openaccess.thecvf.com/content/CVPR2026W/HuMoGen/papers/Choi_FEEL_Emotion-Enriched_Text-to-Motion_Generation_Using_Small-Scale_Emotion_Motion_Data_CVPRW_2026_paper.pdf) | CVPRW 2026 | |
 | [Dance Like a Chicken: Low-Rank Stylization for Human Motion Diffusion](https://onlinelibrary.wiley.com/doi/10.1111/cgf.70365) | CGF (Eurographics 2026) | [code](https://github.com/haimsaw/LoRA-MDM) [webpage](https://haimsaw.github.io/LoRA-MDM/) |
 | [Generalizing Stylized Motion Generation Method by Introducing Metadata-Independent Learning and Unified Multiple Motion Dataset](https://ieeexplore.ieee.org/abstract/document/11303907/) | IEEE TMM 2025 | [code](https://github.com/erayuki-lmd/Generalized_Stylized_Motion_Generation_Method) |
 | [DiFusion: Flexible Stylized Motion Generation Using Digest-and-Fusion Scheme](https://ieeexplore.ieee.org/abstract/document/11202393/) | IEEE TVCG 2025 | |
 | [StyleMotif: Multi-Modal Motion Stylization using Style-Content Cross Fusion](https://openaccess.thecvf.com/content/ICCV2025/papers/Guo_StyleMotif_Multi-Modal_Motion_Stylization_using_Style-Content_Cross_Fusion_ICCV_2025_paper.pdf) | ICCV 2025 | [webpage](https://stylemotif.github.io/) |
 | [SMooDi: Stylized Motion Diffusion Model](https://arxiv.org/pdf/2407.12783) | ECCV 2024 | [webpage](https://neu-vi.github.io/SMooDi/) |
+| [Towards Emotion-enriched Text-to-Motion Generation via LLM-guided Limb-level Emotion Manipulating](https://dl.acm.org/doi/pdf/10.1145/3664647.3681487) | ACM MM 2024 | [code](https://github.com/aekx/L3EM) |
 | [StyleVR: Stylizing Character Animations With Normalizing Flows](https://ieeexplore.ieee.org/abstract/document/10076832/) | IEEE TVCG 2023 | |
 | [Unifying Human Motion Synthesis and Style Transfer with Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2212.08526) | arxiv 22.12 | [code](https://github.com/mrzzy2021/StyledMotionSynthesis) |
 
